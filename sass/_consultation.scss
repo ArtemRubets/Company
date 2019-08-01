@@ -1,0 +1,48 @@
+
+.consultation-wrap{
+    background-image: url(../img/consultation-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom ;
+}
+.consultation-form{
+    padding-bottom: 40px;
+}
+.form{
+    display: flex;
+    max-width: 848px;
+    &__col-1{
+        max-width: 263px;
+        width: 100%;
+        margin-right: 30px;
+    }
+    &__col-2{
+        max-width: 555px;
+        width: 100%;
+    }
+    &__label{
+        line-height: 36px;
+        color: #282828;
+    }
+    &__input,&__select,&__textarea{
+        display: block;
+        border: 1px solid #e6e6e6;
+        width: 100%;
+    }
+    &__textarea{
+        min-height: 213px;
+        resize: none;
+        padding: 10px;
+        margin-bottom: 44px;
+    }
+    &__input,&__select{
+        min-height: 40px;
+        padding: 0 10px;
+        margin-bottom: 10px;
+    }
+    .main-btn,.main-btn:after{
+        color: #373636;
+    }
+    .main-btn{
+       float: right;
+    }
+}
